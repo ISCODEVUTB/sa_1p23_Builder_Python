@@ -3,6 +3,7 @@ from abc import ABC, abstractmethod
 class Personaje(ABC):
     def __init__(self):
         self._caracterizacion = list()
+        self._enemigo = list()
 
     # Setters y getters
     def setNombre(self, nombre):
@@ -30,13 +31,13 @@ class Personaje(ABC):
         return self._liga
 
     def setEnemigo(self, enemigo):
-        self._enemigo = enemigo
+        self._enemigo.append(enemigo)
 
     def getEnemigo(self):
         return self._enemigo
 
     def setCaracterizacion(self, caracterizacion):
-        self._caracterizacion = caracterizacion
+        self._caracterizacion.append(caracterizacion)
 
     def getCaracterizacion(self):
         return self._caracterizacion
