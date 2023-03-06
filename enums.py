@@ -1,6 +1,6 @@
 from enum import Enum
 
-class Liga(Enum):
+class Ligas(Enum):
     Rojo = 1
     Azul = 2
 

@@ -1,4 +1,4 @@
-from Builder import *
+from PersonajeBuilder import *
 
 # Instancias de ejemplo
 hb = HumanoBuilder()

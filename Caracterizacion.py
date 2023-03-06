@@ -13,7 +13,6 @@ class Caracterizacion(ABC):
     def getDescripcion(self):
         return self._descripcion
 
-
 class Poder(Caracterizacion):
     def setCosto(self, costo):
         self._costo = costo
