@@ -25,4 +25,4 @@ En el archivo `main.py` se encuentra una instanciación ejemplo de distintas sub
 
 Pendiente:
 
-- Implementar `IFicha` dentro de los Builders.
+- Implementar Director que use `IFicha` y los Builders.

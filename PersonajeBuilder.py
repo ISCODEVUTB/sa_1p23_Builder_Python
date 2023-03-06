@@ -18,9 +18,6 @@ class AbstractPersonajeBuilder(AbstractBuilder):
     
     def withEnemigo(self, enemigo: Personaje):
         self._enemigo = enemigo 
-    
-    def withCaracterizacion(self, caracterizacion: Caracterizacion):
-        self._caracterizacion = caracterizacion 
 
 class HumanoBuilder(AbstractPersonajeBuilder):
     def withNacionalidad(self, nacionalidad: Nacionalidad):
